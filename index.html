@@ -173,7 +173,7 @@
             let subTotal1 = phoneCountNumber * 1219;
             let subTotal2 = caseCountNumber * 59;
             let subTotal = subTotal1 + subTotal2;
-            let taxTotal = (subTotal * 0.05).toFixed(2);
+            let taxTotal = Math.round(subTotal * 0.05);
 
 
 
