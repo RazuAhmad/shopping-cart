@@ -178,11 +178,11 @@
 
 
 
-            let totalAmount = subTotal + taxTotals;
+            let totalAmount = parseInt(subTotal + taxTotals);
 
             document.getElementById('sub-total').innerText = subTotal;
             document.getElementById('total-tax').innerText = taxTotals;
-            document.getElementById('total-Amount').innerText = totalAmount
+            document.getElementById('total-Amount').innerText = totalAmount;
 
 
         }
