@@ -174,13 +174,14 @@
             let subTotal2 = caseCountNumber * 59;
             let subTotal = subTotal1 + subTotal2;
             let taxTotal = Math.round(subTotal * 0.05);
+            let taxTotals = parseInt(taxTotal);
 
 
 
-            let totalAmount = subTotal + taxTotal;
+            let totalAmount = subTotal + taxTotals;
 
             document.getElementById('sub-total').innerText = subTotal;
-            document.getElementById('total-tax').innerText = taxTotal;
+            document.getElementById('total-tax').innerText = taxTotals;
             document.getElementById('total-Amount').innerText = totalAmount
 
 
